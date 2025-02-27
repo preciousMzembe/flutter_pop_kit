@@ -60,7 +60,7 @@ void showCustomDialog(BuildContext context) {
 
 | Flutter Pop Alert Dialog                                            | Flutter Pop Alert Dialog Active                    |
 | ------------------------------------------------------------------- | -------------------------------------------------- |
-| ![Flutter Pop Alert Dialog](example/flutter_pop_alert_dialog_1.png) | ![Image 2](example/flutter_pop_alert_dialog_1.png) |
+| ![Flutter Pop Alert Dialog](example/flutter_pop_alert_dialog_1.png) | ![Image 2](example/flutter_pop_alert_dialog_2.png) |
 
 ## Installation
 
