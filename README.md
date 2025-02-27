@@ -58,9 +58,9 @@ void showCustomDialog(BuildContext context) {
 }
 ```
 
-| Flutter Pop Alert Dialog                                            | Flutter Pop Alert Dialog Active                    |
-| ------------------------------------------------------------------- | -------------------------------------------------- |
-| ![Flutter Pop Alert Dialog](https://github.com/preciousMzembe/flutter_pop_kit/blob/main/example/flutter_pop_alert_dialog_1.png?raw=true) | ![Image 2](https://github.com/preciousMzembe/flutter_pop_kit/blob/main/example/flutter_pop_alert_dialog_2.png?raw=true) |
+| Flutter Pop Alert Dialog                                                                                                             | Flutter Pop Alert Dialog Active                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| <img width="300" src="https://github.com/preciousMzembe/flutter_pop_kit/blob/main/example/flutter_pop_alert_dialog_1.png?raw=true"/> | <img width="300" src="https://github.com/preciousMzembe/flutter_pop_kit/blob/main/example/flutter_pop_alert_dialog_2.png?raw=true"/> |
 
 ## Installation
 
