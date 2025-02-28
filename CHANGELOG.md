@@ -1,3 +1,9 @@
+#### 1.1.0 - 2025-02-28
+
+- Added `flutterPopBottomSheet` function for creating customizable bottom sheets.
+- Support for background blur effect in bottom sheets.
+- Customizable padding, margin, and border radius for bottom sheets.
+
 #### 1.0.2 - 2025-02-27
 
 - Minor fix
