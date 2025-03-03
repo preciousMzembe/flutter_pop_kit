@@ -23,7 +23,7 @@ void showCustomDialog(BuildContext context) async {
         barrierColor: const Color.fromARGB(48, 0, 0, 0),
         blur: ImageFilter.blur(sigmaX: 2, sigmaY: 2),
         backgroundColor: Colors.white,
-        borderRadius: 22.0,
+        borderRadius: BorderRadius.circular(20),
         content: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
@@ -76,7 +76,7 @@ void showCustomBottomSheet(BuildContext context) {
         context: context,
         contentPadding: EdgeInsets.all(40),
         contentMargin: EdgeInsets.all(20),
-        borderRadius: 10,
+        borderRadius: BorderRadius.circular(20),
         barrierDismissible: true,
         blur: ImageFilter.blur(sigmaX: 4, sigmaY: 4),
         backgroundColor: Colors.white,
@@ -117,7 +117,7 @@ void showCustomBottomSheet(BuildContext context) {
 }
 ```
 
-| Flutter Pop Bottom Sheet                                                                                                             | Flutter Bottom Sheet Active                                                                                                      |
+| Flutter Pop Bottom Sheet                                                                                                             | Flutter Pop Bottom Sheet Active                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
 | <img width="300" src="https://github.com/preciousMzembe/flutter_pop_kit/blob/main/example/flutter_pop_bottom_sheet_1.png?raw=true"/> | <img width="300" src="https://github.com/preciousMzembe/flutter_pop_kit/blob/main/example/flutter_pop_bottom_sheet_2.png?raw=true"/> |
 
@@ -127,7 +127,7 @@ void showCustomBottomSheet(BuildContext context) {
 
 ```yaml
 dependencies:
-  flutter_pop_kit: ^1.1.0
+  flutter_pop_kit: ^1.1.1
 ```
 
 2. Run the following command to install the package:
@@ -146,7 +146,7 @@ flutter pub get
 | `barrierColor`       | `Color`        | The color of the barrier (background) that appears behind the popup.     |
 | `blur`               | `ImageFilter?` | The blur effect to apply to the barrier. This is optional.               |
 | `backgroundColor`    | `Color`        | The background color of the popup.                                       |
-| `borderRadius`       | `double`       | The radius of the popup's corners, defining its rounded shape.           |
+| `borderRadius`       | `BorderRadius`       | The radius of the popup's corners, defining its rounded shape.           |
 
 
 ## Flutter Pop Bottom Sheet Attributes
@@ -160,4 +160,4 @@ flutter pub get
 | `barrierDismissible`| `bool`          | Determines if tapping outside the popup closes it. |
 | `blur`             | `ImageFilter?`   | Background blur effect behind the popup. |
 | `backgroundColor`   | `Color`         | Background color of the popup. |
-| `borderRadius`      | `double`        | Border radius of the popup container. |
+| `borderRadius`      | `BorderRadius`        | Border radius of the popup container. |

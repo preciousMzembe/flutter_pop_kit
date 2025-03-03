@@ -40,7 +40,7 @@ Future<void> flutterPopBottomSheet({
   bool barrierDismissible = true,
   ImageFilter? blur,
   Color backgroundColor = Colors.white,
-  double borderRadius = 20.0,
+  BorderRadius? borderRadius,
 }) async {
   showModalBottomSheet(
     backgroundColor: Colors.transparent,
@@ -54,7 +54,7 @@ Future<void> flutterPopBottomSheet({
         contentMargin: contentMargin,
         barrierDismissible: barrierDismissible,
         backgroundColor: backgroundColor,
-        borderRadius: borderRadius,
+        borderRadius: borderRadius ?? BorderRadius.circular(20.0),
       ),
     ),
     shape: const RoundedRectangleBorder(

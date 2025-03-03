@@ -40,7 +40,7 @@ Future<void> flutterPopAlertDialog({
   Color barrierColor = const Color.fromRGBO(0, 0, 0, 0.1),
   ImageFilter? blur,
   Color backgroundColor = Colors.white,
-  double borderRadius = 20.0,
+  BorderRadius? borderRadius,
 }) async {
   showDialog(
     context: context,
@@ -52,7 +52,7 @@ Future<void> flutterPopAlertDialog({
       barrierColor: barrierColor,
       blur: blur,
       backgroundColor: backgroundColor,
-      borderRadius: borderRadius,
+      borderRadius: borderRadius ?? BorderRadius.circular(20.0),
     ),
   );
 }

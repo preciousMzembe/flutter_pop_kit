@@ -35,7 +35,7 @@ class FlutterPopBottomSheet extends StatelessWidget {
   final EdgeInsets contentMargin;
   final bool barrierDismissible;
   final Color backgroundColor;
-  final double borderRadius;
+  final BorderRadius borderRadius;
 
   const FlutterPopBottomSheet({
     super.key,
@@ -64,7 +64,7 @@ class FlutterPopBottomSheet extends StatelessWidget {
               child: Container(
                 decoration: BoxDecoration(
                   color: backgroundColor,
-                  borderRadius: BorderRadius.circular(borderRadius),
+                  borderRadius: borderRadius,
                 ),
                 padding: contentPadding,
                 child: Column(

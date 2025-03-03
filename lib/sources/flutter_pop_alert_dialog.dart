@@ -38,7 +38,7 @@ class FlutterPopAlertDialog extends StatelessWidget {
   final Color barrierColor;
   final ImageFilter? blur;
   final Color backgroundColor;
-  final double borderRadius;
+  final BorderRadius borderRadius;
 
   const FlutterPopAlertDialog({
     super.key,
@@ -70,7 +70,7 @@ class FlutterPopAlertDialog extends StatelessWidget {
           child: AlertDialog(
             backgroundColor: backgroundColor,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(borderRadius),
+              borderRadius: borderRadius,
             ),
             contentPadding: contentPadding,
             content: SingleChildScrollView(

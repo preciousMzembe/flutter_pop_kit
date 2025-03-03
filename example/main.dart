@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     barrierColor: const Color.fromARGB(48, 0, 0, 0),
                     blur: ImageFilter.blur(sigmaX: 2, sigmaY: 2),
                     backgroundColor: Colors.white,
-                    borderRadius: 22.0,
+                    borderRadius: BorderRadius.circular(20.0),
 
                     // Pass in any content that you want to be in the dialog body (Widget)
                     content: Column(

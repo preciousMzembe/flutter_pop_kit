@@ -1,3 +1,7 @@
+#### 1.1.1 - 2025-03-03
+
+- Border radius fix.
+
 #### 1.1.0 - 2025-02-28
 
 - Added `flutterPopBottomSheet` function for creating customizable bottom sheets.
